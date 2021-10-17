@@ -1,0 +1,107 @@
+.footer {
+    background-color: #063255;
+    height: 463px;
+    color: #fff; 
+    
+    .footer__main {
+        max-width: 1280px;
+        margin: 5rem auto;
+        }
+    .footer__row {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .footer__column {
+        max-width: 350px;
+        }
+    .footer__title {
+        font-size: 36px;
+        line-height: 44px;
+        margin: 2rem 0;
+        }
+    .footer__subtitle {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 1.5rem;
+        }
+    .footer__text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 1rem;
+        }
+    input{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #9C9C9C;
+        border-radius: 27px;
+        margin-bottom: 1rem;
+        background: rgba(248, 248, 248, 0.975);
+        width: 342px;
+        height: 54px;
+        padding-left: 2rem;}
+    .footer__button{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        width: 9.8em;
+        height: 3.3em;
+        color: #fff;
+        background-color: #F58A07;
+        border-radius: 27px;
+        margin-top: 1rem;
+        padding: auto auto;
+        margin-left: 0;
+        }
+    .footer__bottom {
+        max-width: 1280px;
+        margin: 0 auto;
+        
+    }
+    .footer__text-conteiner{
+        
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .footer__bottom-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: white;
+        margin: 4rem;
+        
+    }
+    span {
+        margin: 1rem;
+    }
+}
+.footer__text-conteiner:before {
+        content: "";
+        background: #F58A07;
+        border-top-right-radius: 20px;
+        width: 52.2px;
+        height: 144px;
+        display: inline-block;
+        margin-left: -302px;
+        margin-top: -20px;
+    }
+.footer__text-conteiner:after {
+        content: "";
+        background: #F58A07;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        width: 52.2px;
+        height: 287px;
+        display: inline-block;
+        margin-right: -299px;
+        margin-top: -311px;
+    }

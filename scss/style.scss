@@ -1,0 +1,19 @@
+@import "normalize.scss";
+
+
+body {
+    font-family: poppins;
+    font-size: 16px;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+@import "navbar.scss";
+
+
+@import "contact-us.scss";
+
+@import "footer.scss";

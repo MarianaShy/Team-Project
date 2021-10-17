@@ -1,0 +1,110 @@
+
+.block-2 {
+    max-width: 1280px;
+    margin: 7rem auto;
+    
+    .top-conteiner{
+        display: flex;
+        justify-content: flex-start;
+        .get-in-tuch{
+            max-width: 561px;
+            .form-title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 64px;
+            letter-spacing: -0.03em;
+            color: #1D3444;
+            margin-bottom: 1.5rem;
+            }
+            .form-comment {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            color: #5b5b5b;
+            }
+        }
+        .contact-us{
+            display: flex;
+            margin-left: 99px;
+        }
+        .location{ 
+            margin-right: 76px;
+        }
+        .title{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 30px;
+            letter-spacing: -0.03em;
+            color: #0D1317;
+            margin-bottom: 16px;
+        }
+        .contacts {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            color: #5B5B5B;
+            margin-top: 16px;
+        }
+        
+    }
+
+
+    .bottom-conteiner{
+        display: flex;
+        margin-top: 64px;
+        .form{
+            margin-right: 55px;
+        }
+        .form input{
+                display: block;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #9C9C9C;
+            border-radius: 27px;
+            margin-bottom: 16px;
+            width: 605px;
+            height: 54px;
+            background: rgba(248, 248, 248, 0.975);
+            padding-left: 32px;
+            padding-top: auto;
+        }
+        .form input:focus {
+            background-color: rgba(255, 68, 0, 0.27);
+        }
+        .text-area{
+            background: rgb(241, 242, 243);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #9C9C9C;
+            border-radius: 27px;
+            padding-left: 32px;
+            padding-top: 32px;
+            width: 605px;
+            height: 160px;
+        }
+        .text-area:focus {
+            background-color: rgba(255, 68, 0, 0.27);
+        }
+        .main-button{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            width: 7.5em;
+            height: 3.37em;
+            color: #fff;
+            background-color: #F58A07;
+            border-radius: 27px;
+            margin-top: 2rem;
+        }
+    }
+}
+
