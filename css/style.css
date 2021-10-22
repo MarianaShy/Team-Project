@@ -77,8 +77,8 @@ h6 {
 /*--------------------*/
 @font-face {
   font-family: 'icomoon';
-  src: url("/fonts/icomo/");
-  src: url("/fonts/icomo/icomoon.eot") format("embedded-opentype"), url("/fonts/icomo/icomoon.ttf") format("truetype"), url("/fonts/icomo/icomoon.woff") format("woff"), url("/fonts/icomo/icomoon.svg") format("svg");
+  src: url("../fonts/icomo/icomoon.eot");
+  src: url("../fonts/icomo/icomoon.eot") format("embedded-opentype"), url("../fonts/icomo/icomoon.ttf") format("truetype"), url("../fonts/icomo/icomoon.woff") format("woff"), url("../fonts/icomo/icomoon.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -154,10 +154,12 @@ body {
   -ms-flex-align: center;
   align-items: center;
   margin-top: 1rem; }
-  .nav_items a {
-    color: #394149; }
-  .nav_items a:hover {
-    color: #f58a07; }
+
+a {
+  color: #394149; }
+
+a:hover {
+  color: #f58a07; }
 
 .button {
   font-size: 16px;
