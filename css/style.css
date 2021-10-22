@@ -101,7 +101,8 @@ h6 {
   color: #fff; }
 
 .icon-instagram:before {
-  content: "\e901"; }
+  content: "\e901";
+  color: #fff; }
 
 .icon-twitter:before {
   content: "\e902";
@@ -131,59 +132,40 @@ body {
   max-width: 1280px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+  display: inline-flex; }
 
 .logo {
-  margin-right: 484px;
-  marjin-top: 1rem; }
+  margin-right: 30rem;
+  margin-top: 1rem; }
 
 .nav_items {
-  font-style: normal;
   font-weight: 600;
-  font-size: 16px;
   line-height: 24px;
   text-transform: capitalize;
   width: 461px;
   height: 24px;
-  display: -webkit-inline-flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 1rem; }
-
-.about_us,
-.careers,
-.services,
-.blog {
-  margin-right: 32px;
-  color: #493e39; }
-
-.contact_us {
-  color: #394149; }
-
-.blog:hover {
-  color: #f58a07; }
-
-.contact_us:hover {
-  color: #f58a07; }
-
-.about_us:hover {
-  color: #f58a07; }
-
-.careers:hover {
-  color: #f58a07; }
-
-.services:hover {
-  color: #f58a07; }
+  .nav_items a {
+    color: #394149; }
+  .nav_items a:hover {
+    color: #f58a07; }
 
 .button {
-  font-style: normal;
-  font-weight: 600;
   font-size: 16px;
+  font-weight: 600;
   line-height: 106.5%;
   color: #f58a07;
   margin-left: 40px;
-  background-color: button-bgc;
+  background-color: rgba(245, 138, 7, 0.1);
   height: 52px;
   width: 173px;
   border-radius: 27px; }
@@ -397,7 +379,8 @@ body {
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  position: related; }
+  position: related;
+  z-index: -2; }
   .footer__main {
     width: 1280px;
     margin: 0 auto; }
@@ -419,8 +402,7 @@ body {
     margin: 2rem 0; }
   .footer__icon {
     font-size: 1.5rem;
-    margin-left: -1rem;
-    color: red; }
+    margin-left: -1rem; }
   .footer__subtitle {
     font-style: normal;
     font-weight: 600;
@@ -428,15 +410,11 @@ body {
     line-height: 27px;
     margin-bottom: 1.5rem; }
   .footer__text {
-    font-style: normal;
     font-weight: 500;
-    font-size: 16px;
     line-height: 24px;
     margin-bottom: 1rem; }
   .footer input {
-    font-style: normal;
     font-weight: 500;
-    font-size: 16px;
     line-height: 19px;
     color: #9C9C9C;
     border-radius: 27px;
@@ -486,7 +464,8 @@ body {
   position: absolute;
   margin-top: 320px;
   -ms-flex-negative: 0;
-  flex-shrink: 0; }
+  flex-shrink: 0;
+  z-index: -1; }
 
 .footer:after {
   content: "";
@@ -500,4 +479,5 @@ body {
   align-self: flex-end;
   margin-top: -100px;
   -ms-flex-negative: 0;
-  flex-shrink: 0; }
+  flex-shrink: 0;
+  z-index: -1; }

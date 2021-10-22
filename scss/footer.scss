@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     position: related; 
+    z-index: -2;
     
     &__main {
         width: 1280px;
@@ -29,7 +30,6 @@
     &__icon {
         font-size: 1.5rem;
         margin-left: -1rem;  
-        color:red;  
     }
     &__subtitle {
         font-style: normal;
@@ -39,16 +39,12 @@
         margin-bottom: 1.5rem;
         }
     &__text {
-        font-style: normal;
         font-weight: 500;
-        font-size: 16px;
         line-height: 24px;
         margin-bottom: 1rem;
         }
     input{
-        font-style: normal;
         font-weight: 500;
-        font-size: 16px;
         line-height: 19px;
         color: #9C9C9C;
         border-radius: 27px;
@@ -101,6 +97,7 @@
         position: absolute;
         margin-top: 320px;
         flex-shrink: 0;
+        z-index: -1;
 
     }
 .footer:after {
@@ -114,5 +111,6 @@
         align-self: flex-end;
         margin-top: -100px;
         flex-shrink: 0;
+        z-index: -1;
     }
     
