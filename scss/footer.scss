@@ -7,31 +7,38 @@
     justify-content: space-evenly;
     position: related; 
     
-    .footer__main {
+    &__main {
         width: 1280px;
         margin: 0 auto;
     }
-    .footer__row {
+    &__row {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
     }
-    .footer__column {
+    &__column {
         max-width: 350px;
         }
-    .footer__title {
+    &__title {
         font-size: 36px;
         line-height: 44px;
         margin: 2rem 0;
         }
-    .footer__subtitle {
+    &__icons{
+    }
+    &__icon {
+        font-size: 1.5rem;
+        margin-left: -1rem;  
+        color:red;  
+    }
+    &__subtitle {
         font-style: normal;
         font-weight: 600;
         font-size: 18px;
         line-height: 27px;
         margin-bottom: 1.5rem;
         }
-    .footer__text {
+    &__text {
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -50,7 +57,7 @@
         width: 342px;
         height: 54px;
         padding-left: 2rem;}
-    .footer__button{
+    &__button{
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -64,17 +71,17 @@
         padding: auto auto;
         margin-left: 0;
         }
-    .footer__bottom {
+    &__bottom {
         width: 1280px;
         margin: 0 auto;
         
     }
-    .footer__text-conteiner{
+    &__text-conteiner{
         display: flex;
         justify-content: space-between;
     
     }
-    .footer__bottom-text {
+    &__bottom-text {
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -93,6 +100,8 @@
         height: 144px;
         position: absolute;
         margin-top: 320px;
+        flex-shrink: 0;
+
     }
 .footer:after {
         content: "";
@@ -104,4 +113,6 @@
         position: absolute;
         align-self: flex-end;
         margin-top: -100px;
+        flex-shrink: 0;
     }
+    

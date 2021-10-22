@@ -1,0 +1,116 @@
+/*-Header*/
+.header {
+  background-color: #f30e0e;
+  width: 1280px;
+  height: auto; }
+
+.conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.header__content {
+  width: 559px;
+  height: 427px;
+  margin-top: 161px;
+  margin-left: 319px;
+  margin-right: 102px; }
+
+.header__user_name,
+.header__posted {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #394149;
+  opacity: 0.87; }
+
+.header__user_name {
+  margin-left: 8px;
+  margin-right: 24px; }
+
+.header__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  color: #1d3444;
+  margin-top: 24px;
+  margin-bottom: 24px; }
+
+.header__post {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #5b5b5b;
+  margin-bottom: 24px; }
+
+.lern_more {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 106.5%;
+  color: #f58a07; }
+
+.header__image {
+  margin-top: 128px;
+  margin-bottom: 128px; }
+
+/* all posts */
+.latest_section {
+  margin-top: 128px;
+  margin-left: 320px; }
+
+.latest_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  color: #0d1317; }
+
+.in_the_row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 64px; }
+
+.in_the_row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px; }
+
+.item_section {
+  width: 400px;
+  height: 507px;
+  margin-right: 40px; }
+
+.item_text {
+  background-color: #edf7ff;
+  padding: 32px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px; }
+
+.item_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  color: #0d1317; }
+
+.item_content {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5b5b5b;
+  margin-top: 16px;
+  margin-bottom: 23px; }

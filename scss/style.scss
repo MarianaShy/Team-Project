@@ -1,5 +1,5 @@
 @import "normalize.scss";
-
+@import "fonts.scss";
 
 body {
     font-family: poppins;
@@ -13,6 +13,7 @@ body {
 }
 @import "navbar.scss";
 
+@import "blog.scss";
 
 @import "contact-us.scss";
 
