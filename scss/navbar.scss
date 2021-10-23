@@ -3,6 +3,8 @@
     margin: 1rem auto;
     max-width: 1280px;
     display: inline-flex; 
+    justify-content: space-between;
+    width: 100%;
     
 }
 .logo {
@@ -32,8 +34,8 @@
     color: #f58a07;
     margin-left: 40px;
     background-color: rgba(245, 138, 7, 0.1);
-    height: 52px;
-    width: 173px;
+    height: 3.25rem;
+    width: 10.8rem;
     border-radius: 27px;
 }
 .button:hover{
