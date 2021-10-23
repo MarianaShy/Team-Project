@@ -30,7 +30,7 @@
         display: flex;
         margin-left: 6.2rem;
     }
-    .link:hover, {
+    .link:hover {
     color: #5b5b5b7b;    
 }
     &__location{ 
@@ -84,6 +84,7 @@
         padding-top: 2rem;
         width: 605px;
         height: 160px;
+        resize: none;
         }
     &__text-area:focus,
     &__text-area:active,

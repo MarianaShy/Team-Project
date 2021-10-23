@@ -11,7 +11,7 @@
     margin-right: 30rem;
     margin-top: 1rem;
 }
-.nav_items {
+.nav-items {
     font-weight: 600;
     line-height: 24px;
     text-transform: capitalize;
@@ -20,14 +20,14 @@
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1rem; }
+    margin-top: 1rem; 
     a {
         color: #394149
     }
     a:hover {
         color: #f58a07;
         font-size: 1.1em;
-    }
+    }}
 .button {
     font-size: 16px;
     font-weight: 600;

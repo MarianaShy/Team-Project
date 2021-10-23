@@ -46,17 +46,16 @@
         color: #5b5b5b;
         margin-bottom: 24px;
       }
-      .learn_more {
+      .learn-more {
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 106.5%;
         color: #f58a07;
       }
-      .learn_more:hover {
+      .learn-more:hover {
         color: #f1a869;
       }
-   
 /* all posts */
 .latest {
   width: 100%;
@@ -70,13 +69,11 @@
   text-transform: capitalize;
   color: #0d1317;
   margin-bottom: 3.75rem;
-
 }
 .latest__row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 .latest__item {
   max-width: 400px;
