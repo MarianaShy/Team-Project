@@ -405,6 +405,8 @@ a:hover {
   .footer__icon {
     font-size: 1.5rem;
     margin-left: -1rem; }
+  .footer__icon:hover {
+    font-size: 2.5rem; }
   .footer__subtitle {
     font-style: normal;
     font-weight: 600;
@@ -414,7 +416,10 @@ a:hover {
   .footer__text {
     font-weight: 500;
     line-height: 24px;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    color: white; }
+  .footer__text:hover {
+    color: #9C9C9C; }
   .footer input {
     font-weight: 500;
     line-height: 19px;
