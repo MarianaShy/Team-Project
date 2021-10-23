@@ -163,7 +163,8 @@ a {
   color: #394149; }
 
 a:hover {
-  color: #f58a07; }
+  color: #f58a07;
+  font-size: 1.1em; }
 
 .button {
   font-size: 16px;
@@ -234,6 +235,9 @@ a:hover {
   font-size: 16px;
   line-height: 106.5%;
   color: #f58a07; }
+
+.learn_more:hover {
+  color: #f1a869; }
 
 /* all posts */
 .latest {
@@ -517,6 +521,3 @@ a:hover {
   align-self: flex-end;
   margin-top: 30px;
   z-index: -2; }
-
-a:hover {
-  font-size: 1.1em; }
