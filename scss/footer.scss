@@ -7,7 +7,7 @@
     position: relative; 
     z-index: 2;
 
-    &__conteiner {
+    &__container {
         margin: 0 auto;
         width: 1350px;
         height: 463px;
@@ -100,7 +100,7 @@
         margin: 0 auto;
         z-index: 5;    
     }
-    &__text-conteiner{
+    &__text-container{
         display: flex;
         justify-content: space-between;
     
