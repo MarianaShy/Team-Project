@@ -172,6 +172,9 @@ a:hover {
   width: 173px;
   border-radius: 27px; }
 
+.button:hover {
+  font-size: 1.1em; }
+
 /*-Header*/
 .header {
   background-color: #DCEAF5;
@@ -339,8 +342,10 @@ a:hover {
     background: rgba(248, 248, 248, 0.975);
     padding-left: 2rem;
     padding-top: auto; }
+  .contact-us .contact-us__form input:focus,
+  .contact-us .contact-us__form input:hover,
   .contact-us .contact-us__form input:focus {
-    background-color: rgba(255, 68, 0, 0.27); }
+    background-color: rgba(175, 223, 238, 0.27); }
   .contact-us .contact-us__text-area {
     background: #f1f2f3;
     font-style: normal;
@@ -353,8 +358,10 @@ a:hover {
     padding-top: 2rem;
     width: 605px;
     height: 160px; }
-  .contact-us .contact-us__text-area:focus {
-    background-color: rgba(255, 68, 0, 0.27); }
+  .contact-us .contact-us__text-area:focus,
+  .contact-us .contact-us__text-area:active,
+  .contact-us .contact-us__text-area:hover {
+    background-color: rgba(175, 223, 238, 0.27); }
   .contact-us .contact-us__button {
     font-style: normal;
     font-weight: 500;
@@ -366,6 +373,8 @@ a:hover {
     background-color: #F58A07;
     border-radius: 27px;
     margin-top: 2rem; }
+  .contact-us .contact-us__button:hover {
+    font-size: 1.1em; }
 
 .footer {
   background-color: #063255;
@@ -378,14 +387,24 @@ a:hover {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
   position: related;
-  z-index: -2; }
-  .footer__main {
+  z-index: -3; }
+  .footer__conteiner {
+    margin: 0 auto;
     width: 1280px;
-    margin: 0 auto; }
+    height: 463px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    background-color: #063255;
+    z-index: -1; }
   .footer__row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -414,6 +433,7 @@ a:hover {
     line-height: 27px;
     margin-bottom: 1.5rem; }
   .footer__text {
+    display: block;
     font-weight: 500;
     line-height: 24px;
     margin-bottom: 1rem;
@@ -430,6 +450,10 @@ a:hover {
     width: 342px;
     height: 54px;
     padding-left: 2rem; }
+  .footer input:active,
+  .footer input:hover,
+  .footer input:focus {
+    background-color: rgba(175, 223, 238, 0.27); }
   .footer__button {
     font-style: normal;
     font-weight: 500;
@@ -443,6 +467,8 @@ a:hover {
     margin-top: 1rem;
     padding: auto auto;
     margin-left: 0; }
+  .footer__button:hover {
+    font-size: 1.1em; }
   .footer__bottom {
     width: 1280px;
     margin: 0 auto; }
@@ -470,9 +496,7 @@ a:hover {
   height: 144px;
   position: absolute;
   margin-top: 320px;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  z-index: -1; }
+  z-index: -2; }
 
 .footer:after {
   content: "";
@@ -484,7 +508,5 @@ a:hover {
   position: absolute;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  margin-top: -100px;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  z-index: -1; }
+  margin-top: 30px;
+  z-index: -2; }
