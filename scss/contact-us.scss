@@ -25,13 +25,16 @@
         font-size: 18px;
         line-height: 30px;
         color: #5b5b5b;
+        transition-duration: 0.5s;
         }
     &__info{
         display: flex;
         margin-left: 6.2rem;
+        
     }
     .link:hover {
-    color: #5b5b5b7b;    
+    color: #5b5b5b7b; 
+    transition-duration: 0.5s;   
 }
     &__location{ 
         margin-right: 4.75rem;
@@ -66,14 +69,16 @@
         background: rgba(248, 248, 248, 0.975);
         padding-left: 2rem;
         padding-top: auto;
+        transition-duration: 0.5s;
     }
     &__form input:focus,
     &__form input:hover,
     &__form input:focus {
         background-color: rgba(175, 223, 238, 0.27);
+        transition-duration: 0.5s;
         }
     .contact-us__text-area{
-        background: rgb(241, 242, 243);
+        background: rgba(248, 248, 248, 0.975);
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -85,26 +90,28 @@
         width: 605px;
         height: 160px;
         resize: none;
+        transition-duration: 0.5s;
         }
     &__text-area:focus,
     &__text-area:active,
     &__text-area:hover {
-        background-color: rgba(175, 223, 238, 0.27);
+        background-color: #e1f6fa;
+        transition-duration: 0.5s;
         }
     .contact-us__button{
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        width: 7.5rem;
-        height: 3.37rem;
+        width: 120px;
+        height: 54px;
         color: #fff;
         background-color: #F58A07;
         border-radius: 27px;
         margin-top: 2rem;
+        transition-duration: 2s;
+
     }
-    .contact-us__button:hover{
-        font-size: 1.1em;
-    }
+    
 }
 

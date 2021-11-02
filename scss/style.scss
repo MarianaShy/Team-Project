@@ -18,3 +18,11 @@ body {
 @import "contact-us.scss";
 
 @import "footer.scss";
+
+.button:hover  {
+    background-color: #e1f6fa;
+    color: #394149;
+    transition: color 0.5s ease 0s, background-color 1s ease-out 0s, box-shadow 1s ease-out 0s;
+    box-shadow: 0 2px 2px #c4ebf5;
+}
+
