@@ -169,6 +169,12 @@ body {
     -webkit-transition: all 0.7s linear 0s;
     -o-transition: all 0.7s linear 0s;
     transition: all 0.7s linear 0s; }
+  .nav-items a:active {
+    color: #f58a07;
+    font-size: 1.1em;
+    -webkit-transition: all 0.7s linear 0s;
+    -o-transition: all 0.7s linear 0s;
+    transition: all 0.7s linear 0s; }
 
 .navbar__button {
   font-size: 16px;
@@ -470,11 +476,25 @@ body {
     margin: 2rem 0; }
   .footer__icon {
     font-size: 1.5rem;
-    margin-left: -1rem; }
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s; }
   .footer__icon:hover {
     font-size: 1.45rem;
-    -webkit-box-shadow: 0 2px 0;
-    box-shadow: 0 2px 0; }
+    border-radius: 20px;
+    -webkit-box-shadow: 0 2px 2px #9C9C9C;
+    box-shadow: 0 2px 2px #9C9C9C;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s; }
+  .footer__icon:active {
+    font-size: 1.45rem;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 2px 2px #484747;
+    box-shadow: 0 2px 2px #484747;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s; }
   .footer__subtitle {
     font-style: normal;
     font-weight: 600;

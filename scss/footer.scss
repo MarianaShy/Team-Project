@@ -40,12 +40,22 @@
         }
     &__icon {
         font-size: 1.5rem;
-        margin-left: -1rem;
+        transition-duration: 1s;
+
     }
     &__icon:hover {
         font-size: 1.45rem;
-        box-shadow: 0 2px 0;
+        border-radius: 20px;
+        box-shadow: 0 2px 2px #9C9C9C;
+        transition-duration: 1s;
     }
+    &__icon:active {
+        font-size: 1.45rem;
+        border-radius: 20px;
+        box-shadow: 0 2px 2px #484747;
+        transition-duration: 0.5s;
+    }
+    
     &__subtitle {
         font-style: normal;
         font-weight: 600;
